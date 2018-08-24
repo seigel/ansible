@@ -125,7 +125,7 @@ To encrypt a string provided as a cli arg:
 
 .. code-block:: bash
 
-    ansible-vault encrypt_string --vault-id a_password_file 'foobar' --name 'the_secret'
+    ansible-vault encrypt_string --vault-id a_password_file 'value of the secret to encrypt' --name 'the_secret'
 
 Result::
 
